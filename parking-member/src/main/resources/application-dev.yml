@@ -5,3 +5,7 @@ spring:
       url: jdbc:mysql://127.0.0.1:3306/parking_member?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
       username: root
       password: password
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
