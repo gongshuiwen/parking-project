@@ -13,4 +13,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
  */
 public interface IMemberService extends IService<Member> {
 
+    void sendMsgCode(String phone);
+
+    Member login(String phone, String code);
 }
